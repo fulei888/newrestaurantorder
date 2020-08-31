@@ -1,0 +1,10 @@
+.DishMenus {
+    width: 80%;
+}
+@media (max-width: 499px) {
+    .DishMenus {
+        width:100%;
+        display: block;
+        margin: auto;
+    } 
+}
