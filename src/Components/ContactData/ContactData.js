@@ -241,7 +241,7 @@ const ContactData = (props) => {
         
         const cardElement = elements.getElement(CardElement);
        
-        const res = await localServerAxios.post('https://us-central1-restrauntordermenu.cloudfunctions.net/api/pay', {
+        const res = await localServerAxios.post('add your firebase function link/pay', {
         amount: (props.totalPrice*100).toFixed(0), 
         billingDetails: billingDetails,
         })
